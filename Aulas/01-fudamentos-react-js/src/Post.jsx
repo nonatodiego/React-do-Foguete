@@ -1,11 +1,9 @@
-export function Post() {
+// props: {author e content}
+export function Post(props) {
     return (
         <>
-        <h1>post</h1>
-        <p>hello guys</p>
+            <b>{props.author}</b><p>{props.content}</p>
         </>
     )
 }
 
-
-// default exports vc Named Exports
