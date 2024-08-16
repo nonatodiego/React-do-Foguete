@@ -10,13 +10,13 @@ export function App() {
     <>
       <Header />
       <Post 
-        author="Diego Nonato" 
+        author="esse é o primeiro post" 
         content="essa é macão o brabo do nordeste"
-      />
+      />     
       <Post 
-        author="Laisa Vitoria" 
-        content="oi ola hello world"
-      />
+        author="esse é o segundo post" 
+        content="Vasco da gama e nada mais"
+      />     
     </>
   )
 }
